@@ -1,36 +1,37 @@
 /* MAIN */
 
+body {
+	text-align: center;
+}
+
 #stage {
 	width: 950px;
-	height: 420px;
+	height: 450px;
+	margin: 0 auto;
 }
 
 #stats {
 	position: absolute;
-	top: 420px;
+	top: 0;
 	right: 0;
 }
 
 #instructions {
-	float: left;
 	width: 100%;
-	text-align: left;
-/*	background: pink;*/
+	text-align: center;
 }
 
 .keys {
 	float: left;
 	padding: 5px 20px;
 	text-align: left;
-/*	background: blue;*/
 }
 
 #wrap {
+	width: 950px;
     margin: 0 auto;
-    width: 100%;
 	position: relative;
 	text-align: center;
-/*	background: grey;*/
 }
 
 
@@ -75,7 +76,9 @@ video {
 }
 
 a {
-    text-decoration: none;
+	color: black;
+	font-size: 12px;
+    /*text-decoration: none;*/
 }
 
 a img {

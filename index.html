@@ -35,9 +35,8 @@
     </head>
 
     <body>
-	
+		<canvas id="stage" width="950" height="420" style="background: LightGrey"></canvas>
 		<div id="wrap">
-			<canvas id="stage" width="950" height="420" style="background: LightGrey"></canvas>
 			<!-- <canvas id="loaderCanvas" width="480" height="320"></canvas> -->
 			<div id="instructions">
 				<ul class="keys">
@@ -58,8 +57,9 @@
 				<ul class="keys">
 					<li><strong>p</strong> : take photo</li>
 				</ul>
+				<div id="stats"></div>
+				<a href='/palettes.html' target='_blank'>see colour palettes</a>
 			</div>
-			<div id="stats"></div>
 		</div>
 
         <script src="./js/src/Application.js"></script>
